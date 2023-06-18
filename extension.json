@@ -1,0 +1,13 @@
+{
+  "name": "Spektrum Bootloader and SG3 Decoder",
+  "apiVersion": "1.0.0",
+  "author": "Anthony Casagrande",
+  "version": "0.0.1",
+  "description": "Decode Spektrum Programmer and iX12/14/20 SG3 UART communications of compatible Surface and Air Transmitter and Receivers.",
+  "extensions": {
+    "Spektrum Bootloader and SG3 Decoder": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "spektrum_sg3.SpektrumSG3"
+    }
+  }
+}
